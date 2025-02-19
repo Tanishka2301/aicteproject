@@ -1,5 +1,6 @@
 IMAGE-BASED STEGANOGRAPHY WITH ENCRYPTION AND DECRYPTION
 This project implements a simple form of steganography using Python and OpenCV. It allows users to hide a secret message in an image, using pixel manipulation. The message is encrypted and hidden inside the image, and a passcode is required for decryption.
+
 FEATURES:
 Hide a secret message inside an image file.
 Encrypt the message using a passcode.
@@ -7,6 +8,7 @@ Decrypt the message using the correct passcode.
 The image file will be saved with the hidden message embedded in it.
 You can install OpenCV using pip:
                     pip install opencv-python
+
 HOW IT WORKS:
 The secret message is converted to its ASCII values and embedded into the image’s RGB pixel values. A passcode is used to secure the encryption and decryption processes.
 
